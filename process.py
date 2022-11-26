@@ -2,8 +2,8 @@ import glob
 import pandas as pd
 from statistics import stdev
 
-CSV_DIRECTORY = "Concussion Subject Data/*"
-PROCESSED_CSV_TITLE = "processed_data"
+CSV_DIRECTORY = "force_plate_data/*"
+PROCESSED_CSV_TITLE = "processed_data"  # exclude the file extension
 
 FILES = glob.glob(f"{CSV_DIRECTORY}/*.csv")
 DATAFRAMES = [pd.read_csv(filename) for filename in FILES]
