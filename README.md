@@ -4,8 +4,8 @@
 
 ## Installation
 
-1. Above the list of files, click ![download][download-16] **Code**.
-1. Click ![file-zip][file-zip-16] **Download ZIP** to download the files in this project.
+1. Above the list of files, click **Code**.
+1. Click **Download ZIP** to download the files in this project.
 1. After the file has been unzipped, create a new folder inside of the `VR-BESS` project folder called `force_plate_data` and place the CSV files you’d like to process inside of it.
 
    <details>
@@ -55,7 +55,3 @@ Please [open an issue](https://github.com/fraction/readme-boilerplate/issues/new
 ## Contributing
 
 Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/fraction/readme-boilerplate/compare/).
-
-<!-- @primer/octicons -->
-[download-16]: https://unpkg.com/@primer/octicons@10.0.0/build/svg/download-16.svg
-[file-zip-16]: https://unpkg.com/@primer/octicons@10.0.0/build/svg/file-zip-16.svg
